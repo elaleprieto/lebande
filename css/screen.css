@@ -1,0 +1,99 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*@import compass/css3, url(http://fonts.googleapis.com/css?family=Homenaje) */
+@font-face {
+  font-family: "Rawengulk";
+  src: url('/css/fonts/rawengulk/RawengulkRegular.ttf') format('truetype'), url('/css/fonts/rawengulk/RawengulkRegular.otf') format('opentype');
+}
+
+/* line 8, ../sass/screen.sass */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+/* line 11, ../sass/screen.sass */
+html {
+  font-size: 62.5%;
+  font-size: 10px;
+}
+
+/* line 15, ../sass/screen.sass */
+body {
+  font-family: Rawengulk, sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/* line 20, ../sass/screen.sass */
+a, a:active, a:focus, a:hover, a:visited {
+  color: #793c79;
+  text-decoration: none;
+}
+/* line 24, ../sass/screen.sass */
+a:hover, a:active:hover, a:focus:hover, a:hover:hover, a:visited:hover {
+  color: #9b4d9b;
+}
+
+/* line 27, ../sass/screen.sass */
+section {
+  background-color: #101010;
+  padding: 30px 0 30px 0;
+  padding: 3rem 0 3rem 0;
+}
+
+/* line 33, ../sass/screen.sass */
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  color: #793c79;
+}
+
+/* line 36, ../sass/screen.sass */
+.navbar-inverse {
+  background-color: #babab9;
+  border: 0;
+  box-shadow: 0px 0px 5px black;
+  box-shadow: 0rem 0rem 0.5rem black;
+}
+
+/* line 42, ../sass/screen.sass */
+.navbar {
+  border-radius: 0;
+}
+
+/* line 45, ../sass/screen.sass */
+#content {
+  background-color: white;
+  padding-top: 10px;
+  padding-top: 1rem;
+  padding-bottom: 10px;
+  padding-bottom: 1rem;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 54, ../sass/screen.sass */
+#contact {
+  background-color: #101010;
+}
+/* line 57, ../sass/screen.sass */
+#contact p {
+  margin-bottom: 100px;
+  margin-bottom: 10rem;
+}
+
+/* line 61, ../sass/screen.sass */
+#home {
+  padding: 70px 0 80px 0;
+  padding: 7rem 0 8rem 0;
+}
+
+/* line 65, ../sass/screen.sass */
+#services {
+  background-color: #8b8b8b;
+}
+/* line 68, ../sass/screen.sass */
+#services h1 {
+  padding-top: 20px;
+  padding-top: 2rem;
+}

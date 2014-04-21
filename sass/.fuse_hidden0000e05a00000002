@@ -1,0 +1,66 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />*/
+// @import compass/reset
+@import fonts
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak
+	display: none !important
+
+html
+	font-size: 62.5%
+	font-size: 10px
+
+body
+	font-family: Rawengulk, sans-serif
+	font-size: 14px
+	font-size: 1.4rem
+
+a, a:active, a:focus, a:hover, a:visited
+	color: #793C79
+	text-decoration: none
+
+	&:hover
+		color: lighten(#793C79, 10%)
+
+section
+	background-color: #101010
+	padding: 30px 0 30px 0
+	padding: 3rem 0 3rem 0
+
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a
+	color: #793C79
+
+.navbar-inverse
+	background-color: #BABAB9
+	border: 0
+	box-shadow: 0px 0px 5px #000
+	box-shadow: 0rem 0rem 0.5rem #000
+
+.navbar
+	border-radius: 0
+
+
+
+#content
+	background-color: white
+	padding-top: 10px
+	padding-top: 1rem
+	padding-bottom: 10px
+	padding-bottom: 1rem
+	position: absolute
+	width: 100%
+
+#contact
+	background-color: #101010
+
+#home
+	padding: 80px 0 80px 0
+	padding: 8rem 0 8rem 0
+
+#services
+	background-color: #8B8B8B
+	
+
